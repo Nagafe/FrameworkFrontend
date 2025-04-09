@@ -1,0 +1,51 @@
+/* formatacao.css */
+
+/* Container for the entire Grupo F section */
+.grupo-f-container {
+    padding: 20px 0;
+}
+
+/* Header styling for the standings */
+.table-header {
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+
+/* Styling for each team row */
+.team-row {
+    border-bottom: 1px solid #dee2e6;
+}
+
+/* Remove border from the last team row */
+.team-row:last-child {
+    border-bottom: none;
+}
+
+/* Styling for the match schedule section */
+.match-schedule {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* Circle indicators for recent games */
+.circle {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 2px;
+}
+
+/* Colors for the circles */
+.green {
+    background-color: green;
+}
+
+.gray {
+    background-color: gray;
+}
+
+.red {
+    background-color: red;
+}
